@@ -10,21 +10,39 @@ body{margin-left: 0px ;
 	display: inline;
 	background-color: black;
 color: white;
-font-family: 'Avenir', sans-serif;
-font-size: 180%;
+font-family: 'Avenir';
+font-size: 120%;
 text-align: center;}
 #logo{
 	text-align: center;
 	border-color: black;
+	background-size: contain;
 }
-
+ul{
+	width: 90%;
+}
+nav ul {
+	overflow: hidden;
+    list-style-type: none;
+	padding-left: 5%;
+}
+nav ul li{
+	float: left;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
 .heading h1{
 	font-size:50%;		
 }
 h1{
 	text-align: center;
 	font-size: 100%;
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Avenir';
 	color: white;
 }
 #addi h1{
