@@ -36,6 +36,7 @@ nav ul li{
 	padding-bottom: 4%;	
 	text-align: left;
 	font-size: 70%;
+	cursor: pointer;
 }
 #menubar{width: 30%;
 }
