@@ -32,11 +32,16 @@ nav ul li{
 	float: left;
 	padding-left: 4%;
 	padding-right: 4%;
+	width: 22%;
+	padding-bottom: 4%;	
+	text-align: left;
+	font-size: 70%;
+}
+#menubar{width: 30%;
 }
 nav ul li a{
 	text-decoration: none;
 	color: white;
-	text-align: center;
 }
 #mainlogo{
 	width: 60%;
@@ -135,16 +140,21 @@ nav ul {
 	overflow: hidden;
     list-style-type: none;
 	margin-bottom: 7%;
+	margin-right: auto;
+	margin-left: auto;
 }
 nav ul li{
 	float: left;
 	padding-left: 4%;
 	padding-right: 4%;
+	padding-bottom: 0%;
+	width: auto;
+	text-align: center;
+	font-size: 100%;
 }
 nav ul li a{
 	text-decoration: none;
 	color: white;
-	text-align: center;
 }
 #mainlogo{
 	width: 20%;
