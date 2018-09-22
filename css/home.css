@@ -18,13 +18,15 @@ text-align: center;}
 	border-color: black;
 	background-size: contain;
 }
+
 ul{
 	width: 90%;
 }
 nav ul {
 	overflow: hidden;
     list-style-type: none;
-	padding-left: 5%;
+	padding-left: 10%;
+	margin-bottom: 7%;
 }
 nav ul li{
 	float: left;
@@ -35,6 +37,11 @@ nav ul li a{
 	text-decoration: none;
 	color: white;
 	text-align: center;
+}
+#mainlogo{
+	width: 60%;
+	height: 40%;
+	margin-bottom: -7%;
 }
 .heading h1{
 	font-size:50%;		
@@ -99,3 +106,113 @@ h1{
 	font-size: 50%;
 }
 #paragraph1{line-height: 10vh;}
+@media only screen and (min-width: 800px) {
+    @import 'https://fonts.googleapis.com/css?family=Cabin';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+	font-family: Avenir;
+	src: url(D:/kcolbchain/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+body{margin-left: 0px ;
+	margin-right: 0px ;
+	display: inline;
+	background-color: black;
+color: white;
+font-family: 'Avenir';
+font-size: 120%;
+text-align: center;}
+#logo{
+	text-align: center;
+	border-color: black;
+	background-size: contain;
+}
+
+ul{
+	width: 80%;
+}
+nav ul {
+	overflow: hidden;
+    list-style-type: none;
+	margin-bottom: 7%;
+}
+nav ul li{
+	float: left;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+#mainlogo{
+	width: 20%;
+	height: 30%;
+	margin-bottom: initial;
+}
+.heading h1{
+	font-size:50%;		
+}
+h1{
+	text-align: center;
+	font-size: 100%;
+	font-family: 'Avenir';
+	color: white;
+}
+#addi h1{
+	font-size: 50%;
+}
+.page{
+	height: 100vh;
+}
+.button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 10%;
+	width: 30%;
+	font-size: 80%;
+	text-align: center;
+	height: 7%;
+	line-height: 15%;
+	
+}
+#button1{
+	background-color: #E66FB8;
+	border-color: #E66FB8;
+}
+#button2{
+	background-color: #BD6FE6;
+	border-color: #BD6FE6;
+}
+#button3{
+	background-color: #8F6FE6;
+	border-color: #8F6FE6;
+}
+#button4{
+	background-color: #8F6FE6;
+	border-color: #8F6FE6;
+	width: auto;
+}
+#button1:hover {
+    background-color: #E57BBC;
+}
+#button2:hover {
+    background-color: #BF77E5;
+}
+#button3:hover {
+    background-color: #997FE2;
+}
+#button4:hover {
+    background-color: #997FE2;
+}
+#detail{
+	line-height: 10vh;
+	font-size: 50%;
+}
+#paragraph1{line-height: 10vh;}
+
+    }
