@@ -5,8 +5,7 @@
 	src: url(D:/kcolbchain/fonts/AvenirNextLTPro-Regular.otf);
 }
 
-body{margin-left: 0px ;
-	margin-right: 0px ;
+body{
 	display: inline;
 	background-color: black;
 color: white;
@@ -36,18 +35,23 @@ nav ul li{
 	padding-bottom: 4%;	
 	text-align: left;
 	font-size: 70%;
-	cursor: pointer;
+
 }
 #menubar{width: 30%;
 }
 nav ul li a{
 	text-decoration: none;
 	color: white;
+	cursor: pointer;
 }
 #mainlogo{
 	width: 60%;
 	height: 40%;
 	margin-bottom: -7%;
+}
+.sublogo{
+	height: 7%;
+	width: 7%;
 }
 .heading h1{
 	font-size:50%;		
