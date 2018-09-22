@@ -152,6 +152,7 @@ nav ul li{
 	text-align: center;
 	font-size: 100%;
 }
+#menubar{width: auto;}
 nav ul li a{
 	text-decoration: none;
 	color: white;
